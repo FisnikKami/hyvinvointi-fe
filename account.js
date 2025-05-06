@@ -5,7 +5,7 @@ import { fetchData } from "./fetch.js";
 const bt1 = document.querySelector(".get_entry");
 bt1.addEventListener("click", async () => {
   console.log("Klikki toimii");
-  const url = "http://localhost:3000/api/entries/1";
+  const url = "http://hyvinvointi-be-production.up.railway.app/api/entries/1";
 
   fetchData(url).then((data) => {
     // käsitellään fetchData funktiosta tullut JSON
@@ -21,7 +21,7 @@ button3.addEventListener("click", getUsers);
 
 async function getUsers() {
   console.log("haetaan kaikki käyttäjät");
-  const url = "http://localhost:3000/api/users";
+  const url = "http://hyvinvointi-be-production.up.railway.app/api/users";
   let token = localStorage.getItem("token");
   const options = {
     method: "GET",
@@ -105,7 +105,7 @@ function deleteUser(evt) {
   const id = evt.target.attributes["data-id"].value;
   console.log(id);
 
-  const url = `http://localhost:3000/api/users/${id}`;
+  const url = `http://hyvinvointi-be-production.up.railway.app/api/users/${id}`;
   let token = localStorage.getItem("token");
   const options = {
     method: "DELETE",
@@ -139,7 +139,7 @@ async function showUserName() {
 
   // 2. hae uudestaan /api/auth/me endpointin kautta
 
-  const url = "http://localhost:3000/api/auth/me";
+  const url = "http://hyvinvointi-be-production.up.railway.app/api/auth/me";
   let token = localStorage.getItem("token");
   const options = {
     method: "GET",

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
   
-      const url = 'http://localhost:3000/api/users'; // ✅ Adjust port if backend is different
+      const url = 'http://hyvinvointi-be-production.up.railway.app/api/users'; // ✅ Adjust port if backend is different
       const data = {
         username: usernameInput.value,
         password: passwordInput.value,
