@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       console.log('Logging in now');
 
-      const url = 'http://hyvinvointi-be-production.up.railway.app/api/auth/login';
+      const url = 'https://hyvinvointi-be-production.up.railway.app/api/auth/login';
 
       const formData = new FormData(loginForm); // Get form data
       console.log('formdata', formData);
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     meRequest.addEventListener('click', async () => {
       console.log('Testing TOKEN and fetching user data');
 
-      const url = 'http://hyvinvointi-be-production.up.railway.app/api/auth/me';
+      const url = 'https://hyvinvointi-be-production.up.railway.app/api/auth/me';
       const muntokeni = localStorage.getItem('token');
       console.log('Retrieved from LocalStorage:', muntokeni);
 

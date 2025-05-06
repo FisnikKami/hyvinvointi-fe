@@ -8,7 +8,7 @@ createUser.addEventListener('click', async (evt) => {
   evt.preventDefault();
   console.log('Nyt luodaan käyttäjä');
 
-  const url = 'http://localhost:3000/api/users'; // Muutettu Azure -> Local
+  const url = 'https://hyvinvointi-be-production.up.railway.app/api/users'; // Muutettu Azure -> Local
 
   const form = document.querySelector('.create_user_form');
   const username = form.querySelector('input[name=username]').value;
@@ -39,7 +39,7 @@ loginUser.addEventListener('click', async (evt) => {
   evt.preventDefault();
   console.log('Nyt logataan sisään');
 
-  const url = 'http://localhost:3000/api/auth/login'; // Muutettu Azure -> Local
+  const url = 'https://hyvinvointi-be-production.up.railway.app/api/auth/login'; // Muutettu Azure -> Local
 
   const form = document.querySelector('.login_form');
 
@@ -77,7 +77,7 @@ const meRequest = document.querySelector('#meRequest');
 meRequest.addEventListener('click', async () => {
   console.log('Testataan TOKENIA ja haetaan käyttäjän tiedot');
 
-  const url = 'http://localhost:3000/api/auth/me'; // Muutettu Azure -> Local
+  const url = 'https://hyvinvointi-be-production.up.railway.app/api/auth/me'; // Muutettu Azure -> Local
   const muntokeni = localStorage.getItem('token');
   console.log('Tämä on haettu LocalStoragesta', muntokeni);
 
