@@ -2,13 +2,9 @@
 # Front-end
 1. Kuvankaappaukset:
 <p align="center">
-  <img src="/screenshots/hrvsivu.png" alt="Login sivu" width="200">
-  <img src="/screenshots/treeniohjelma2.png" alt="Register sivu" width="200">
   <img src="/screenshots/login.png" alt="Käyttäjät" width="200">
-  <img src="/screenshots/treeniohjelma.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/home.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/register1.png" alt="Käyttäjät" width="200">
-  <img src="/screenshots/testi3.png" alt="Login sivu" width="200">
   <img src="/screenshots/kuva1.png" alt="Login sivu" width="200">
   <img src="/screenshots/kuva2.png" alt="Login sivu" width="200">
   <img src="/screenshots/kuva3.png" alt="Login sivu" width="200">
@@ -40,7 +36,8 @@ Käytimme Youtubea myös apuna.
 
 
 mahdolliset tiedossa olevat bugit/ongelmat
-
+- rekisterointi toimi ajemmmin mutta heti kun depoljattiin lakkas toimimatta
+- treeniohjelma sivu ei voi ottaa tietoa
 -Kubios hrv toiminta = ei toimi
 -Emme löytäneet vielä merkittäviä bugeja
 -Emme voi lisätä kuin yhden treeniohjelman keralla.
