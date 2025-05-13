@@ -9,6 +9,9 @@
   <img src="/screenshots/home.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/register1.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/testi3.png" alt="Login sivu" width="200">
+  <img src="/screenshots/kuva1.png" alt="Login sivu" width="200">
+  <img src="/screenshots/kuva2.png" alt="Login sivu" width="200">
+  <img src="/screenshots/kuva3.png" alt="Login sivu" width="200">
 
 </p>
 

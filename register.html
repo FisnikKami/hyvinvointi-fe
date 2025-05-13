@@ -6,34 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vite App</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <script type="module" src="/register.js"></script>
+  <!-- ✅ Poistettu type="module" -->
+  <script src="/register.js"></script>
   <link rel="stylesheet" href="style1.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
 <div class="wrapper">
-    <form id="registerForm"> <!-- Added id attribute to the form -->
+    <form id="registerForm">
         <h1>register</h1>
+
         <div class="input-box">
-            <input type="text" placeholder="Username" name="username" id="username" required> <!-- Added id attribute -->
+            <input type="text" placeholder="Usernamasde" name="username" id="username" required>
             <i class='bx bxs-lock-alt'></i>
-        </div> <!-- Close the div for the "input-box" -->
+        </div>
+
         <div class="input-box">
-            <input type="password" placeholder="Password" name="password" id="password" required> <!-- Added id attribute -->
+            <input type="password" placeholder="Password" name="password" id="password" required>
             <i class='bx bx-user'></i>
-        </div> <!-- Close the div for the "input-box" -->
+        </div>
+
         <div class="input-box">
-            <input type="email" placeholder="Email" name="email" id="email" required> <!-- Added id attribute -->
+            <input type="email" placeholder="Email" name="email" id="email" required>
             <i class='bx bx-user'></i>
-        </div> <!-- Close the div for the "input-box" -->
+        </div>
+
         <div class="remember-forgot">
             <label><input type="checkbox"> Remember me</label>
-            <label><a href="#">Forgot password</a></label>
+            <label><a href="#">Forgot passwordurmum</a></label>
         </div>
+
         <button type="submit" class="btn">Login</button>
+
         <div class="register-link">
-            <!-- Add any content related to registration link if needed -->
+            <!-- Voit lisätä sisältöä tähän tarvittaessa -->
         </div>
     </form>
 </div>
